@@ -16,7 +16,6 @@ if (p != 57)
 putchar(',');
 putchar(' ');
 }
-putchar('\n');
 return (0);
 }
-}
+
