@@ -8,7 +8,7 @@ int number, multiple, product;
 for (number = 0; number <= 9; number++)
 {
 _putchar('0');
-for (mutiple = 1; multiple <= 9; multiple++)
+for (multiple = 1; multiple <= 9; multiple++)
 {
 _putchar(',');
 _putchar(' ');
