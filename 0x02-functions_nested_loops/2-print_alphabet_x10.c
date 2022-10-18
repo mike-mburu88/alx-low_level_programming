@@ -9,7 +9,7 @@ int count;
 char lt;
 for (count  = 0; count <= 9; count++)
 {
-for (lt = a; lt < z; lt++)
+for (lt = 'a'; lt < 'z'; lt++)
 _putchar(lt);
 _putchar('\n');
 }
