@@ -12,7 +12,7 @@ for (multiple = 1; multiple <= 9; multiple++)
 {
 _putchar(',');
 _putchar(' ');
-product = number * mutiple
+ product = number * multiple;
 if (product <= 9)
 _putchar (' ');
 else
