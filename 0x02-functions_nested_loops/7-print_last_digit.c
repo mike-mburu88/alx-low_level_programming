@@ -5,7 +5,7 @@
 * @n: the integer variable
 * Return: the value of the last digit
 */
-int print_last_digit(int a)
+int print_last_digit(void)
 {
 int n = INT_MIN;
 int a = -(n % 10);
