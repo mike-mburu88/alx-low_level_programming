@@ -1,2 +1,2 @@
 #!/bin/bash
-This is a description of C programming
+This is an exercise on nested loop functions
