@@ -7,9 +7,12 @@
 */
 int print_last_digit(int n)
 {
-int Id = n % 10;
-if (Id < 0)
-Id *= -1;
-_putchar(Id + '0');
+int n = INT_MIN;
+if (n == INT_MIN)
+{
+int a = -n;
+a = n % 10;
+_putchar(a + '0');
+}
 return (0);
 }
