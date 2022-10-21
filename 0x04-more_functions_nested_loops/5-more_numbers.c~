@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ *more_numbers - function that prints 0 to 14 ten times 
+ *Return: 0
+ */
+void more_numbers(void)
+{
+char u;
+int x;
+for (u = 0; u <= 14; u++)
+{
+for (x = 0; x <=9; x++)
+{
+_putchar(u);
+_putchar('\n');
+}
+}
+}
