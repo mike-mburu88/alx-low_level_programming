@@ -3,8 +3,8 @@
 /**
  * main - causes an infinite loop
  *stops the infinite loop at a prescribed point
- * prints an output
- *@i: the variable
+ *while: condition set for variable
+*\\o/: the variable
  * Return: 0
  */
 
@@ -14,7 +14,7 @@ int i;
 printf("Infinite loop incoming :(\n");
 i = 0;
 /**
-*while (i < 10)
+* while (i < 10)
 *{
 *putchar(i);
 *}
