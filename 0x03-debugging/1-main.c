@@ -2,6 +2,9 @@
 
 /**
  * main - causes an infinite loop
+ *stops the infinite loop at a prescribed point
+ * prints an output
+ *@i: the variable
  * Return: 0
  */
 
@@ -19,4 +22,3 @@ i = 0;
 printf("Infinite loop avoided! \\o/\n");
 return (0);
 }
-
