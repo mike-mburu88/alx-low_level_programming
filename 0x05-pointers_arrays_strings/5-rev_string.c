@@ -12,7 +12,7 @@ int x = 0;
 int i;
 while (s[x] != '\0')
 x++;
-for (i = 0; i < x; x++)
+for (i = 0; i < x; i++)
 {
 x--;
 p = s[i];
