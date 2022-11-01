@@ -19,6 +19,7 @@ a -= size;
 for (x = 0; x < size; x++)
 {
 second_sum += a[x];
+a -= size;
 }
 printf("%d, %d\n", first_sum, second_sum);
 }
