@@ -17,13 +17,13 @@ x = 0;
 if (haystack[x] == needle[x])
 {
 do {
-if (needle[y + 1] == '\0')
+if (needle[x + 1] == '\0')
 return (haystack);
-y++;
+x++;
 }
-while (haystack[y] == needle[y])
+while (haystack[x] == needle[x]);
 }
 haystack++;
 }
-return ('\0')
+ return ('\0');
 }
