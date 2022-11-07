@@ -6,7 +6,7 @@
 
 /**
  *check_num - check of there are digits in a string
- *@string: an array variable
+ *@str: an array variable
  *Return: Always 0
  */
 int check_num(char *str)
