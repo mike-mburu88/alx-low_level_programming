@@ -34,7 +34,7 @@ free(grid[x]);
 free(grid);
 return (NULL);
 }
-} 
+}
 for (x = 0; y < width; y++)
 grid[x][y] = 0;
 return (grid);
