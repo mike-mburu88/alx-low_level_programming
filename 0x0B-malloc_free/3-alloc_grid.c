@@ -23,7 +23,7 @@ if (grid == NULL)
 return (NULL);
 }
 for (x = 0; x < height; x++)
-grid = malloc(sizeof(int) * width);
+grid[x] = malloc(sizeof(int) * width);
 if (grid[x] == NULL)
 {
 for (x = x - 1; x >= 0; x--)
