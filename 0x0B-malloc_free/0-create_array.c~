@@ -1,0 +1,31 @@
+#include "main.h"
+
+/**
+ **create_array - function that creates an array of chars
+ *@size: integer argument for array size
+ *@c: the string argument to be checked
+ *Return: NULL if 0 and a pointer to the array
+ */
+char *create_array(unsigned int size, char c)
+{
+unsigned int xposition;
+char *string_pointer;
+if (size == 0)
+{
+return (NULL);
+}
+string_pointer = (malloc(sizeof(c)) * (char *));
+if (string_pointer == 0)
+{
+return (NULL);
+}
+else
+{
+xposition = 0;
+while (xposition < size)
+{
+*(string_pointer + xposition) = c;
+xposition++;
+}
+return (string_position);
+}
