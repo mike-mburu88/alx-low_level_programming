@@ -1,6 +1,5 @@
 #include "dog.h"
 #include <stdlib.h>
-#include <stddef.h>
 #include <stdio.h>
 /**
  *print_dog - unction that prints a struct dog
