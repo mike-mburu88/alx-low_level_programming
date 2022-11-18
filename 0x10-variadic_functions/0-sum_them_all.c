@@ -7,18 +7,18 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
+va_list printer;  
 unsigned int x;
 int sum = 0;
-va_list ptr;
 if (n == 0)
 {
 return (0);
 }
-va_start(ptr, n);
+va_start(printer, n);
 for (x = 0; x < n; x++)
 {
-sum += va_arg(ptr, int);
-va_end(ptr);
+sum += va_arg(printer, int);
+va_end(printer);
 }
 return (sum);
 }
