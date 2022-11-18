@@ -21,7 +21,7 @@ string = va_arg(arg, char *);
 if (string)
 printf("%s", string);
 else
-  printf("(nil)");
+printf("(nil)");
 if (i < n - 1)
 if (separator)
 printf("%s", separator);
