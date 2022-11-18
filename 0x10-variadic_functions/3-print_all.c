@@ -42,11 +42,10 @@ case 's':
 string = va_arg(printer, char *), z = 1;
 if (!string)
 {
-printf("nil");
+printf("(nil)");
 break;
 }
 printf("%s", string);
-}x++;
-}
+} x++; }
 printf("\n"), va_end(printer);
 }
