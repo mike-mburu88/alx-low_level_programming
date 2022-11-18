@@ -7,7 +7,7 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-va_list printer;  
+va_list printer;
 unsigned int x;
 int sum = 0;
 if (n == 0)
