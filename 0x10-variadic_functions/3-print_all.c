@@ -27,7 +27,7 @@ break;
 }
 y++;
 }
- switch (format[x])
+switch (format[x])
 {
 case 'c':
 printf("%c", va_arg(printer, int)), z = 1;
@@ -39,7 +39,7 @@ case 'f':
 printf("%f", va_arg(printer, double)), z = 1;
 break;
 case 's':
-string = va_arg(printer, char*), z = 1;
+string = va_arg(printer, char *), z = 1;
 if (!string)
 {
 printf("nil");
