@@ -3,7 +3,7 @@
 /**
  *add_node_end - adds a new node at the end of a list_t
  *@head: the argument for the first node
- *@string: the data variable stored in the string
+ *@str: the data variable stored in the string
  *Return: address of the new element, or NULL
  */
 list_t *add_node_end(list_t **head, const char *str)
