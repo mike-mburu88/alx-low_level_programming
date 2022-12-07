@@ -21,6 +21,7 @@ text_content = "";
 if (text_content)
 {
 for (xletters = 0; text_content[xletters]; xletters++)
+;
 rwrtext = write(fnum, text_content, xletters);
 if (rwrtext == -1)
 return (-1);
