@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  *add_dnodeint -  adds a new node at the beginning of a list
- *@heaad: the pointer to the head node
+ *@head: the pointer to the head node
  *@n: the variable for the number of nodes
  *Return: the address of the new element, NULL if failed
  */
