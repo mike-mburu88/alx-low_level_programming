@@ -35,7 +35,7 @@ for (y = 0, x = 0; x < len; x++)
 y += argv[1][x] * argv[1][x];
 p[4] = l[(y ^ 239) & 63];
 for (y = 0, x = 0; (char)x < argv[1][0]; x++)
- y = rand();
+y = rand();
 p[5] = l[(y ^ 229) & 63];
 printf("%s\n", p);
 return (0);
