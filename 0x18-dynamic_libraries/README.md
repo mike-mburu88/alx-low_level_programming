@@ -1,0 +1,1 @@
+This is a project description for dynamically linked libraries
