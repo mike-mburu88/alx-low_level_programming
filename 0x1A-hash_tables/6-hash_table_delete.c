@@ -13,7 +13,7 @@ if (ht == NULL || ht->array == NULL || ht->size == 0)
 return;
 for (index = 0; index < ht->size; index++)
 {
-while (ht->array[i] != NULL)
+while (ht->array[index] != NULL)
 {
 next = ht->array[index]->next;
 free(ht->array[index]->key);
