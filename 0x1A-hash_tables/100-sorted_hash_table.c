@@ -11,11 +11,11 @@ unsigned long int x;
 sht = malloc(sizeof(shash_table_t));
 if (sht == NULL)
 return (NULL);
-sht->size = size
+sht->size = size;
 sht->shead = NULL;
 sht->shead = NULL;
 sht->stail = NULL;
-sht->array = malloc(sizeof(shash_node_t)*size)
+ sht->array = malloc(sizeof(shash_node_t)*size);
 if (sht->array == NULL)
 {
 free(sht);
@@ -170,7 +170,7 @@ printf("{");
 tmp = ht->shead;
 while (tmp != NULL)
 {
-flag == 1)
+if (flag == 1)
 printf(", ");
 printf("'%s': '%s'", tmp->key, tmp->value);
 flag = 1;
@@ -222,7 +222,7 @@ next = ht->array[x]->next;
 free(ht->array[x]->key);
 free(ht->array[x]->value);
 free(ht->array[x]);
-ht->array[i] = next;
+ht->array[x] = next;
 }
 }
 free(ht->array);
